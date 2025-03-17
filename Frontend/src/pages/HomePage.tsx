@@ -12,6 +12,7 @@ const HomePage = () => {
       navigate('/builder', { state: { prompt } });
     }
   };
+
   return (
     <div className="min-h-screen bg-gradient-to-br from-dark via-dark/95 to-dark/90 text-white">
       <div className="container mx-auto px-4 py-16 animate-fade-in">
